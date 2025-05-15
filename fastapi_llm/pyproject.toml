@@ -1,0 +1,13 @@
+[project]
+name = "fastapi-llm"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "fastapi>=0.115.12",
+    "llama-api-client>=0.1.0",
+    "llama-stack>=0.2.6",
+    "torch>=2.7.0",
+    "uvicorn>=0.34.2",
+]
